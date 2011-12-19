@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBED4620149FA61800EAFD9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBED461F149FA61800EAFD9E /* UIKit.framework */; };
+		CBED4622149FA61800EAFD9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBED4621149FA61800EAFD9E /* Foundation.framework */; };
+		CBED4624149FA61800EAFD9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBED4623149FA61800EAFD9E /* CoreGraphics.framework */; };
+		CBED462A149FA61800EAFD9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBED4628149FA61800EAFD9E /* InfoPlist.strings */; };
+		CBED462C149FA61800EAFD9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED462B149FA61800EAFD9E /* main.m */; };
+		CBED4630149FA61800EAFD9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED462F149FA61800EAFD9E /* AppDelegate.m */; };
+		CBED4633149FA61800EAFD9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED4632149FA61800EAFD9E /* ViewController.m */; };
+		CBED4636149FA61800EAFD9E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBED4634149FA61800EAFD9E /* ViewController.xib */; };
+		CBED463E149FA61800EAFD9E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBED463D149FA61800EAFD9E /* SenTestingKit.framework */; };
+		CBED463F149FA61800EAFD9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBED461F149FA61800EAFD9E /* UIKit.framework */; };
+		CBED4640149FA61800EAFD9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBED4621149FA61800EAFD9E /* Foundation.framework */; };
+		CBED4648149FA61800EAFD9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBED4646149FA61800EAFD9E /* InfoPlist.strings */; };
+		CBED464B149FA61800EAFD9E /* Take6Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBED464A149FA61800EAFD9E /* Take6Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBED4641149FA61800EAFD9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBED4612149FA61800EAFD9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBED461A149FA61800EAFD9E;
+			remoteInfo = Take6;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBED461B149FA61800EAFD9E /* Take6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Take6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBED461F149FA61800EAFD9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CBED4621149FA61800EAFD9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBED4623149FA61800EAFD9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CBED4627149FA61800EAFD9E /* Take6-Info.plist */ = {isa = PBXFileReference; path = "Take6-Info.plist"; sourceTree = "<group>"; };
+		CBED4629149FA61800EAFD9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBED462B149FA61800EAFD9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBED462D149FA61800EAFD9E /* Take6-Prefix.pch */ = {isa = PBXFileReference; path = "Take6-Prefix.pch"; sourceTree = "<group>"; };
+		CBED462E149FA61800EAFD9E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBED462F149FA61800EAFD9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBED4631149FA61800EAFD9E /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		CBED4632149FA61800EAFD9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBED4635149FA61800EAFD9E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CBED463C149FA61800EAFD9E /* Take6Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Take6Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBED463D149FA61800EAFD9E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CBED4645149FA61800EAFD9E /* Take6Tests-Info.plist */ = {isa = PBXFileReference; path = "Take6Tests-Info.plist"; sourceTree = "<group>"; };
+		CBED4647149FA61800EAFD9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBED4649149FA61800EAFD9E /* Take6Tests.h */ = {isa = PBXFileReference; path = Take6Tests.h; sourceTree = "<group>"; };
+		CBED464A149FA61800EAFD9E /* Take6Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Take6Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBED4618149FA61800EAFD9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBED4620149FA61800EAFD9E /* UIKit.framework in Frameworks */,
+				CBED4622149FA61800EAFD9E /* Foundation.framework in Frameworks */,
+				CBED4624149FA61800EAFD9E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBED4638149FA61800EAFD9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBED463E149FA61800EAFD9E /* SenTestingKit.framework in Frameworks */,
+				CBED463F149FA61800EAFD9E /* UIKit.framework in Frameworks */,
+				CBED4640149FA61800EAFD9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBED4610149FA61800EAFD9E = {
+			isa = PBXGroup;
+			children = (
+				CBED4625149FA61800EAFD9E /* Take6 */,
+				CBED4643149FA61800EAFD9E /* Take6Tests */,
+				CBED461E149FA61800EAFD9E /* Frameworks */,
+				CBED461C149FA61800EAFD9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBED461C149FA61800EAFD9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBED461B149FA61800EAFD9E /* Take6.app */,
+				CBED463C149FA61800EAFD9E /* Take6Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBED461E149FA61800EAFD9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBED461F149FA61800EAFD9E /* UIKit.framework */,
+				CBED4621149FA61800EAFD9E /* Foundation.framework */,
+				CBED4623149FA61800EAFD9E /* CoreGraphics.framework */,
+				CBED463D149FA61800EAFD9E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBED4625149FA61800EAFD9E /* Take6 */ = {
+			isa = PBXGroup;
+			children = (
+				CBED462E149FA61800EAFD9E /* AppDelegate.h */,
+				CBED462F149FA61800EAFD9E /* AppDelegate.m */,
+				CBED4631149FA61800EAFD9E /* ViewController.h */,
+				CBED4632149FA61800EAFD9E /* ViewController.m */,
+				CBED4634149FA61800EAFD9E /* ViewController.xib */,
+				CBED4626149FA61800EAFD9E /* Supporting Files */,
+			);
+			path = Take6;
+			sourceTree = "<group>";
+		};
+		CBED4626149FA61800EAFD9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBED4627149FA61800EAFD9E /* Take6-Info.plist */,
+				CBED4628149FA61800EAFD9E /* InfoPlist.strings */,
+				CBED462B149FA61800EAFD9E /* main.m */,
+				CBED462D149FA61800EAFD9E /* Take6-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBED4643149FA61800EAFD9E /* Take6Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CBED4649149FA61800EAFD9E /* Take6Tests.h */,
+				CBED464A149FA61800EAFD9E /* Take6Tests.m */,
+				CBED4644149FA61800EAFD9E /* Supporting Files */,
+			);
+			path = Take6Tests;
+			sourceTree = "<group>";
+		};
+		CBED4644149FA61800EAFD9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBED4645149FA61800EAFD9E /* Take6Tests-Info.plist */,
+				CBED4646149FA61800EAFD9E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBED461A149FA61800EAFD9E /* Take6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBED464E149FA61800EAFD9E /* Build configuration list for PBXNativeTarget "Take6" */;
+			buildPhases = (
+				CBED4617149FA61800EAFD9E /* Sources */,
+				CBED4618149FA61800EAFD9E /* Frameworks */,
+				CBED4619149FA61800EAFD9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Take6;
+			productName = Take6;
+			productReference = CBED461B149FA61800EAFD9E /* Take6.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBED463B149FA61800EAFD9E /* Take6Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBED4651149FA61800EAFD9E /* Build configuration list for PBXNativeTarget "Take6Tests" */;
+			buildPhases = (
+				CBED4637149FA61800EAFD9E /* Sources */,
+				CBED4638149FA61800EAFD9E /* Frameworks */,
+				CBED4639149FA61800EAFD9E /* Resources */,
+				CBED463A149FA61800EAFD9E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBED4642149FA61800EAFD9E /* PBXTargetDependency */,
+			);
+			name = Take6Tests;
+			productName = Take6Tests;
+			productReference = CBED463C149FA61800EAFD9E /* Take6Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBED4612149FA61800EAFD9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CBED4615149FA61800EAFD9E /* Build configuration list for PBXProject "Take6" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CBED4610149FA61800EAFD9E;
+			productRefGroup = CBED461C149FA61800EAFD9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBED461A149FA61800EAFD9E /* Take6 */,
+				CBED463B149FA61800EAFD9E /* Take6Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBED4619149FA61800EAFD9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBED462A149FA61800EAFD9E /* InfoPlist.strings in Resources */,
+				CBED4636149FA61800EAFD9E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBED4639149FA61800EAFD9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBED4648149FA61800EAFD9E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CBED463A149FA61800EAFD9E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBED4617149FA61800EAFD9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBED462C149FA61800EAFD9E /* main.m in Sources */,
+				CBED4630149FA61800EAFD9E /* AppDelegate.m in Sources */,
+				CBED4633149FA61800EAFD9E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBED4637149FA61800EAFD9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBED464B149FA61800EAFD9E /* Take6Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBED4642149FA61800EAFD9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBED461A149FA61800EAFD9E /* Take6 */;
+			targetProxy = CBED4641149FA61800EAFD9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBED4628149FA61800EAFD9E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBED4629149FA61800EAFD9E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CBED4634149FA61800EAFD9E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBED4635149FA61800EAFD9E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		CBED4646149FA61800EAFD9E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBED4647149FA61800EAFD9E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBED464C149FA61800EAFD9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CBED464D149FA61800EAFD9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBED464F149FA61800EAFD9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Take6/Take6-Prefix.pch";
+				INFOPLIST_FILE = "Take6/Take6-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CBED4650149FA61800EAFD9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Take6/Take6-Prefix.pch";
+				INFOPLIST_FILE = "Take6/Take6-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CBED4652149FA61800EAFD9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Take6.app/Take6";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Take6/Take6-Prefix.pch";
+				INFOPLIST_FILE = "Take6Tests/Take6Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CBED4653149FA61800EAFD9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Take6.app/Take6";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Take6/Take6-Prefix.pch";
+				INFOPLIST_FILE = "Take6Tests/Take6Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBED4615149FA61800EAFD9E /* Build configuration list for PBXProject "Take6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBED464C149FA61800EAFD9E /* Debug */,
+				CBED464D149FA61800EAFD9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBED464E149FA61800EAFD9E /* Build configuration list for PBXNativeTarget "Take6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBED464F149FA61800EAFD9E /* Debug */,
+				CBED4650149FA61800EAFD9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBED4651149FA61800EAFD9E /* Build configuration list for PBXNativeTarget "Take6Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBED4652149FA61800EAFD9E /* Debug */,
+				CBED4653149FA61800EAFD9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBED4612149FA61800EAFD9E /* Project object */;
+}
