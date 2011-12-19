@@ -37,20 +37,20 @@
 		CBED461F149FA61800EAFD9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CBED4621149FA61800EAFD9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CBED4623149FA61800EAFD9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CBED4627149FA61800EAFD9E /* Take6-Info.plist */ = {isa = PBXFileReference; path = "Take6-Info.plist"; sourceTree = "<group>"; };
+		CBED4627149FA61800EAFD9E /* Take6-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Take6-Info.plist"; sourceTree = "<group>"; };
 		CBED4629149FA61800EAFD9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CBED462B149FA61800EAFD9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CBED462D149FA61800EAFD9E /* Take6-Prefix.pch */ = {isa = PBXFileReference; path = "Take6-Prefix.pch"; sourceTree = "<group>"; };
-		CBED462E149FA61800EAFD9E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBED462D149FA61800EAFD9E /* Take6-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Take6-Prefix.pch"; sourceTree = "<group>"; };
+		CBED462E149FA61800EAFD9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBED462F149FA61800EAFD9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CBED4631149FA61800EAFD9E /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		CBED4631149FA61800EAFD9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CBED4632149FA61800EAFD9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CBED4635149FA61800EAFD9E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		CBED463C149FA61800EAFD9E /* Take6Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Take6Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBED463D149FA61800EAFD9E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		CBED4645149FA61800EAFD9E /* Take6Tests-Info.plist */ = {isa = PBXFileReference; path = "Take6Tests-Info.plist"; sourceTree = "<group>"; };
+		CBED4645149FA61800EAFD9E /* Take6Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Take6Tests-Info.plist"; sourceTree = "<group>"; };
 		CBED4647149FA61800EAFD9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CBED4649149FA61800EAFD9E /* Take6Tests.h */ = {isa = PBXFileReference; path = Take6Tests.h; sourceTree = "<group>"; };
+		CBED4649149FA61800EAFD9E /* Take6Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Take6Tests.h; sourceTree = "<group>"; };
 		CBED464A149FA61800EAFD9E /* Take6Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Take6Tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
